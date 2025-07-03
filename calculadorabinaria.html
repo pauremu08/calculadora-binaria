@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Binaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>Calculadora Binaria</h2>
+    <input type="text" id="bin1" placeholder="Binario 1 (ej. 1010)">
+    <select id="operation">
+      <option value="add">Suma</option>
+      <option value="subtract">Resta</option>
+      <option value="multiply">Multiplicación</option>
+      <option value="divide">División</option>
+    </select>
+    <input type="text" id="bin2" placeholder="Binario 2 (ej. 0101)">
+    <button onclick="calculate()">Calcular</button>
+    <div class="result" id="result"></div>
+  </div>
+</body>
+<script src="script.js" defer></script>
+</html>
