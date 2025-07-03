@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Binaria</title>
+    <link rel="stylesheet" href="calcucss.css">
+
+</head>
+
+<body>
+    <div class="calculator1">
+        <h1>Calculadora Binaria 1</h1>
+
+        <input type="text" id="bin1" placeholder="Primer número binario">
+        <select id="operador">
+            <option value="+">+</option>
+            <option value="-">−</option>
+            <option value="*">×</option>
+            <option value="/">÷</option>
+        </select>
+        <input1 type="text" id="bin2" placeholder="Segundo número binario">
+        <button1 onclick="calcular()">Calcular</button>
+
+        <div id="resultado"></div>
+    </div>
+    <div class="calculator2">
+        <h2>Calculadora Binaria 2</h2>
+
+        <input type="text" id="bin1" placeholder="Binario 1 (ej. 1010)">
+        <select id="operation">
+            <option value="add">Suma</option>
+            <option value="subtract">Resta</option>
+            <option value="multiply">Multiplicación</option>
+            <option value="divide">División</option>
+        </select>
+        <input type="text" id="bin2" placeholder="Binario 2 (ej. 0101)">
+        <button onclick="calculate()">Calcular</button>
+        <div class="result" id="result"></div>
+    </div>
+
+</body>
+
+</html>
